@@ -12,3 +12,8 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /.next/
+Disallow: /node_modules/
+
+Sitemap: https://shwetasahu.dev/sitemap.xml
+Host: https://shwetasahu.dev

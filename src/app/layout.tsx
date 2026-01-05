@@ -18,19 +18,41 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Shweta Sahu | Computer Science Engineering Student",
-  description: "Building innovative solutions with Python, MERN Stack, and a passion for clean code. Currently exploring full-stack web development and data structures.",
-  keywords: ["Shweta Sahu", "Computer Science", "Full Stack Developer", "Python", "MERN Stack", "Web Development", "DSA"],
-  authors: [{ name: "Shweta Sahu" }],
+  title: "Shweta Sahu | Portfolio - Full Stack Developer",
+  description: "Award-winning portfolio showcasing innovative solutions with Python, MERN Stack, and modern web technologies. Computer Science Engineering student specializing in full-stack development.",
+  keywords: ["Shweta Sahu", "Computer Science", "Full Stack Developer", "Python", "MERN Stack", "Web Development", "DSA", "React", "Node.js", "Next.js", "Portfolio"],
+  authors: [{ name: "Shweta Sahu", url: "https://shwetasahu.dev" }],
+  creator: "Shweta Sahu",
+  publisher: "Shweta Sahu",
+  metadataBase: new URL("https://shwetasahu.dev"),
   openGraph: {
-    title: "Shweta Sahu - Portfolio",
-    description: "Computer Science Engineering Student | Python | MERN Stack | Full Stack Developer",
+    title: "Shweta Sahu - Full Stack Developer Portfolio",
+    description: "Building innovative solutions with Python, MERN Stack, and modern web technologies.",
     type: "website",
+    url: "https://shwetasahu.dev",
+    siteName: "Shweta Sahu Portfolio",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Shweta Sahu Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shweta Sahu - Portfolio",
+    title: "Shweta Sahu - Full Stack Developer",
     description: "Building innovative solutions with Python and MERN Stack",
+    creator: "@ShwetaSahu",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
   },
 };
 

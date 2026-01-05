@@ -1,8 +1,8 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
-import { Moon, Sun, Download, ArrowDown } from 'lucide-react';
+import { Moon, Sun, Download, ArrowDown, Github, Linkedin, Mail, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ProfileImage from '../components/ProfileImage';
 import Projects from '../components/Projects';
