@@ -9,14 +9,12 @@ const inter = Inter({
   subsets: ["latin"],
   display: 'swap',
 });
-
 const poppins = Poppins({
   variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
   display: 'swap',
 });
-
 export const metadata: Metadata = {
   title: "Shweta Sahu | Portfolio - Full Stack Developer",
   description: "Award-winning portfolio showcasing innovative solutions with Python, MERN Stack, and modern web technologies. Computer Science Engineering student specializing in full-stack development.",
@@ -47,6 +45,7 @@ export const metadata: Metadata = {
     creator: "@ShwetaSahu",
     images: ["/og-image.jpg"],
   },
+  
   robots: {
     index: true,
     follow: true,
@@ -72,6 +71,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          
           {children}
           <Toaster />
         </ThemeProvider>
